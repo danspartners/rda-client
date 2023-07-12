@@ -7,7 +7,7 @@
 - $ npm start <!-- make sure `sysctl -w vm.max_map_count=262144` -->
 
 <!-- Install local deps -->
-- $ npm i --no-save ../../../rdt-search-ui ../dans-wrapper
+- $ ./scripts/link-deps.sh
 
 <!-- Run and watch the frontend -->
 - $ npm run serve
