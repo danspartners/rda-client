@@ -1,0 +1,24 @@
+{
+  "name": "@rda-client/indexer",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "download": "npx ts-node src/download.ts",
+    "start": "npx ts-node src/index.ts",
+    "watch": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.3"
+  },
+  "author": "Gijsjan Brouwer",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "es7": "npm:@elastic/elasticsearch@^7.17.0",
+    "fs-extra": "^11.1.1"
+  }
+}

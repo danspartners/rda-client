@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitReturns": true,
+		"esModuleInterop": true,
+		"jsx": "react",
+		"experimentalDecorators": true,
+		"lib": ["DOM", "ES2015", "DOM.Iterable"],
+		"skipLibCheck": true,
+		"downlevelIteration": true,
+		"useDefineForClassFields": false
+	},
+	"include": ["src/index.tsx"]
+
+}
